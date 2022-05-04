@@ -1,15 +1,7 @@
-[module]
-    [[hugoVersion]]
-        extended= true
-        min= "0.87.0"
-
 baseURL = "https://mokevelyn.github.io/"
 languageCode = "zh-en"
 title = "Personal Digital Garden"
 theme = "digitalgarden"
-
-[Params]
-  description = "My Digital Garden on the Internet"
 
 
 
