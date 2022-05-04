@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>yanbo92.site</title>
+        <link>https://mokevelyn.github.io/</link>
+        <description>Recent content on yanbo92.site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 04 May 2022 15:54:58 +0800</lastBuildDate><atom:link href="https://mokevelyn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>My First Post</title>
+        <link>https://mokevelyn.github.io/posts/my-first-post/</link>
+        <pubDate>Wed, 04 May 2022 15:54:58 +0800</pubDate>
+        
+        <guid>https://mokevelyn.github.io/posts/my-first-post/</guid>
+        <description>&lt;p&gt;这福气给你你要不要啊！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
