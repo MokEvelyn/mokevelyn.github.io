@@ -39,25 +39,8 @@ theme = "digitalgarden"
   name = 'Instagram'
   weight = 4
 [[menu.social]]
-  name = 'Dribbble'
-  weight = 5
-[[menu.social]]
-  name = 'Codepen'
-  weight = 6
-[[menu.social]]
-  name = 'Twitch'
-  weight = 7
-[[menu.social]]
   name = 'Email'
   weight = 8
 
-
-# syntax highlight settings
-[markup]
-  [markup.highlight]
-    style = "dracula"
-  [markup.goldmark.renderer]
-    # Enable to include inline HTML
-    unsafe = true
 
 
