@@ -1,4 +1,4 @@
-baseurl: 'https://mokevelyn.github.io/'
+baseurl: https://mokevelyn.github.io/
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
