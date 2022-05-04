@@ -17,19 +17,19 @@ theme = "digitalgarden"
 [menu]
 [[menu.main]]
   name = 'Home'
-  url = '/'
+  # url = '/'
   weight = 1
 [[menu.main]]
   name = 'Articles'
-  url = '/articles'
+  # url = '/articles'
   weight = 2
 [[menu.main]]
   name = 'Portfolio'
-  url = '/portfolio'
+  # url = '/portfolio'
   weight = 3
 [[menu.main]]
   name = 'Stack'
-  url = '/stack'
+  # url = '/stack'
   weight = 4
 [[menu.main]]
   name = 'Polywork'
