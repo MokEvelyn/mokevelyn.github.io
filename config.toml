@@ -10,37 +10,9 @@ theme = "digitalgarden"
 
 [Params]
   description = "My Digital Garden on the Internet"
-  # images = ['/digital-garden-logo.png']
 
-[menu]
-[[menu.main]]
-  name = 'Home'
-  weight = 1
-[[menu.main]]
-  name = 'Articles'
-  weight = 2
-[[menu.main]]
-  name = 'Portfolio'
-  weight = 3
-[[menu.main]]
-  name = 'Stack'
-  weight = 4
 
-[[menu.social]]
-  name = 'Twitter'
-  weight = 1
-[[menu.social]]
-  name = 'GitHub'
-  weight = 2
-[[menu.social]]
-  name = 'LinkedIn'
-  weight = 3
-[[menu.social]]
-  name = 'Instagram'
-  weight = 4
-[[menu.social]]
-  name = 'Email'
-  weight = 8
+
 
 
 
