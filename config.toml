@@ -31,10 +31,6 @@ theme = "digitalgarden"
   name = 'Stack'
   # url = '/stack'
   weight = 4
-[[menu.main]]
-  name = 'Polywork'
-  # url = 'https://polywork.com'
-  weight = 5
 
 [[menu.social]]
   name = 'Twitter'
@@ -68,10 +64,6 @@ theme = "digitalgarden"
   name = 'Email'
   # url = 'mailto:user@example.org'
   weight = 8
-[[menu.social]]
-  name = 'RSS'
-  # url = '/articles/index.xml'
-  weight = 9
 
 
 # syntax highlight settings
