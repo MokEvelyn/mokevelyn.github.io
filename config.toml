@@ -3,6 +3,11 @@ languageCode = "zh-en"
 title = "Personal Digital Garden"
 theme = "digitalgarden"
 
+
+[Params]
+  description = "My Digital Garden on the Internet"
+  images = ['/digital-garden-logo.png']
+
 [menu]
 [[menu.main]]
   name = 'Home'
