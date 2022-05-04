@@ -1,81 +1,256 @@
-baseURL = "https://mokevelyn.github.io/"
-languageCode = "zh-en"
-title = "Personal Digital Garden"
-theme = "digitalgarden"
+baseURL: "https://mokevelyn.github.io/"
+languageCode: "zh-en"
+title: "卷生卷死"
+theme: Hugo-theme-stack
 
+baseurl: https://yanbo92.site/
+languageCode: zh-cn
+theme: hugo-theme-stack
+paginate: 5
+title: yanbo92.site
 
-[Params]
-  description = "My Digital Garden on the Internet"
-  images = ['/digital-garden-logo.png']
-
-[menu]
-[[menu.main]]
-  name = 'Home'
-  url = '/'
-  weight = 1
-[[menu.main]]
-  name = 'Articles'
-  url = '/articles'
-  weight = 2
-[[menu.main]]
-  name = 'Portfolio'
-  url = '/portfolio'
-  weight = 3
-[[menu.main]]
-  name = 'Stack'
-  url = '/stack'
-  weight = 4
-[[menu.main]]
-  name = 'Polywork'
-  url = 'https://polywork.com'
-  weight = 5
-
-[[menu.social]]
-  name = 'Twitter'
-  url = 'https://twitter.com'
-  weight = 1
-[[menu.social]]
-  name = 'GitHub'
-  url = 'https://github.com'
-  weight = 2
-[[menu.social]]
-  name = 'LinkedIn'
-  url = 'https://linkedin.com'
-  weight = 3
-[[menu.social]]
-  name = 'Instagram'
-  url = 'https://instagram.com'
-  weight = 4
-[[menu.social]]
-  name = 'Dribbble'
-  url = 'https://dribbble.com'
-  weight = 5
-[[menu.social]]
-  name = 'Codepen'
-  url = 'https://codepen.io'
-  weight = 6
-[[menu.social]]
-  name = 'Twitch'
-  url = 'https://twitch.com'
-  weight = 7
-[[menu.social]]
-  name = 'Email'
-  url = 'mailto:user@example.org'
-  weight = 8
-[[menu.social]]
-  name = 'RSS'
-  url = '/articles/index.xml'
-  weight = 9
-
-
-# syntax highlight settings
-[markup]
-  [markup.highlight]
-    style = "dracula"
-  [markup.goldmark.renderer]
-    # Enable to include inline HTML
-    unsafe = true
+languages:
+    zh-cn:
+        languageName: 中文
+        title: yanbo92.site
+        weight: 1
 
 
 
+# Change it to your Disqus shortname before using
+disqusShortname: hugo-theme-stack
 
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
+DefaultContentLanguage: zh-cn
+
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+hasCJKLanguage: false
+
+permalinks:
+    posts = /:section
+
+params:
+    mainSections:
+        - posts
+    featuredImageField: image
+    rssFullContent: true
+    favicon:
+
+    footer:
+        since: 2020
+        customText:
+
+    dateFormat:
+        published: 2006-01-02
+        lastUpdated: 2006-01-02
+
+    sidebar:
+        emoji: 🤓
+        subtitle: 这里住着一位测试开发工程师
+        avatar:
+            enabled: true
+            local: true
+            src: img/avatar.png
+
+    article:
+        math: false
+        toc: true
+        readingTime: false
+        license:
+            enabled: true
+            default: Licensed under CC BY-NC-SA 4.0
+
+    comments:
+        enabled: true
+        provider: utterances
+
+        disqusjs:
+            shortname:
+            apiUrl:
+            apiKey:
+            admin:
+            adminLabel:
+
+        utterances:
+            repo: yanbo92/yanbo92.github.io
+            issueTerm: pathname
+            label: utterances
+
+        remark42:
+            host:
+            site:
+            locale:
+
+        vssue:
+            platform:
+            owner:
+            repo:
+            clientId:
+            clientSecret:
+            autoCreateIssue: false
+
+        # Waline client configuration see: https://waline.js.org/en/reference/client.html
+        waline:
+            serverURL:
+            lang:
+            visitor:
+            avatar:
+            emoji:
+                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+            requiredMeta:
+                - name
+                - email
+                - url
+            placeholder:
+            locale:
+                admin: Admin
+
+        twikoo:
+            envId:
+            region:
+            path:
+            lang:
+
+        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
+        cactus:
+            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+            serverName: "cactus.chat"
+            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+
+        giscus:
+            repo:
+            repoID:
+            category:
+            categoryID:
+            mapping:
+            lightTheme:
+            darkTheme:
+            reactionsEnabled: 1
+            emitMetadata: 0
+
+        gitalk:
+            owner:
+            admin:
+            repo:
+            clientID:
+            clientSecret:
+
+        cusdis:
+            host:
+            id:
+    widgets:
+        homepage:
+            - type: search
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 15
+            - type: tag-cloud
+              params:
+                  limit: 30
+        page:
+            - type: toc
+
+    opengraph:
+        twitter:
+            # Your Twitter username
+            site:
+
+            # Available values: summary, summary_large_image
+            card: summary_large_image
+
+    defaultImage:
+        opengraph:
+            enabled: false
+            local: false
+            src:
+
+    colorScheme:
+        # Display toggle
+        toggle: true
+
+        # Available values: auto, light, dark
+        default: auto
+
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+menu:
+    main: 
+        - identifier: home
+          name: 主页
+          url: /
+          weight: -100
+          params:
+            # icon: home
+
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/yanbo92/
+          params:
+              # icon: brand-github
+
+        - identifier: docker
+          name: Docker
+          url: https://hub.docker.com/u/yanbo92/
+          params:
+              # icon: brand-docker
+
+        - identifier: pypi
+          name: Pypi
+          url: https://pypi.org/user/yanbo92/
+          params:
+              # icon: brand-python
+
+        - identifier: mail
+          name: Mail
+          url: mailto:yanbo92@139.com
+          params:
+              # icon: brand-mail
+
+        - identifier: reddit
+          name: Reddit
+          url: https://www.reddit.com/user/yanbo92/
+          params:
+              # icon: brand-reddit
+
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: false
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
