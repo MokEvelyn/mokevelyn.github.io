@@ -12,7 +12,7 @@ theme = "digitalgarden"
 
 [Params]
   description = "My Digital Garden on the Internet"
-  images = ['/digital-garden-logo.png']
+  # images = ['/digital-garden-logo.png']
 
 [menu]
 [[menu.main]]
@@ -33,44 +33,44 @@ theme = "digitalgarden"
   weight = 4
 [[menu.main]]
   name = 'Polywork'
-  url = 'https://polywork.com'
+  # url = 'https://polywork.com'
   weight = 5
 
 [[menu.social]]
   name = 'Twitter'
-  url = 'https://twitter.com'
+  # url = 'https://twitter.com'
   weight = 1
 [[menu.social]]
   name = 'GitHub'
-  url = 'https://github.com'
+  # url = 'https://github.com'
   weight = 2
 [[menu.social]]
   name = 'LinkedIn'
-  url = 'https://linkedin.com'
+  # url = 'https://linkedin.com'
   weight = 3
 [[menu.social]]
   name = 'Instagram'
-  url = 'https://instagram.com'
+  # url = 'https://instagram.com'
   weight = 4
 [[menu.social]]
   name = 'Dribbble'
-  url = 'https://dribbble.com'
+  # url = 'https://dribbble.com'
   weight = 5
 [[menu.social]]
   name = 'Codepen'
-  url = 'https://codepen.io'
+  # url = 'https://codepen.io'
   weight = 6
 [[menu.social]]
   name = 'Twitch'
-  url = 'https://twitch.com'
+  # url = 'https://twitch.com'
   weight = 7
 [[menu.social]]
   name = 'Email'
-  url = 'mailto:user@example.org'
+  # url = 'mailto:user@example.org'
   weight = 8
 [[menu.social]]
   name = 'RSS'
-  url = '/articles/index.xml'
+  # url = '/articles/index.xml'
   weight = 9
 
 
