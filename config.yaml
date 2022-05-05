@@ -1,7 +1,7 @@
 baseURL: "https://mokevelyn.github.io/"
 languageCode: "zh-en"
 title: "卷生卷死"
-theme: Hugo-theme-stack
+theme: hugo-theme-stack
 paginate: 5
 
 languages:
