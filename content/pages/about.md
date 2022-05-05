@@ -6,13 +6,12 @@ aliases:
   - about-us
   - about-hugo
   - contact
-license: 
 lastmod: '2022-05-05'
 menu:
   main:
     weight: -90
     params: 
-      icon:user
+      icon: user
 ---
 
 
