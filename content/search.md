@@ -9,6 +9,6 @@ menu:
   main:
     weight: -60
     params: 
-      icons: search
+     icon: search
 ---
 
