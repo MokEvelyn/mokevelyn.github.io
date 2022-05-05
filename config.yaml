@@ -2,7 +2,7 @@ baseURL: "https://mokevelyn.github.io/"
 languageCode: "zh-en"
 title: "卷生卷死"
 theme: hugo-theme-stack
-paginate: 5
+paginate: 8
 
 languages:
     zh-cn:
@@ -22,7 +22,10 @@ DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+
+hasCJKLanguage: true
+enableRobotsTXT: true
+enableEmoji: true
 
 permalinks:
     posts = /:section
