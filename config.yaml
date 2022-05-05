@@ -202,11 +202,11 @@ menu:
           params:
               icon: brand-docker
 
-        # - identifier: pypi
-          # name: Pypi
-          # url: https://pypi.org/user/yanbo92/
-          # params:
-              # icon: brand-python
+        - identifier: pypi
+          name: Pypi
+          url: https://pypi.org/user/yanbo92/
+          params:
+              icon: brand-python
 
         - identifier: mail
           name: Mail
@@ -214,11 +214,11 @@ menu:
           params:
               icon: brand-mail
 
-        # - identifier: reddit
-          # name: Reddit
-          # url: https://www.reddit.com/user/yanbo92/
-          # params:
-              # icon: brand-reddit
+        - identifier: reddit
+          name: Reddit
+          url: https://www.reddit.com/user/yanbo92/
+          params:
+              icon: brand-reddit
 
 
 related:
