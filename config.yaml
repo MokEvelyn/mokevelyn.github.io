@@ -192,37 +192,37 @@ menu:
           url: /
           weight: -100
           params:
-            # icon: home
+            icon: home
 
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/yanbo92/
+          url: https://github.com/mokevelyn/
           params:
-              # icon: brand-github
+              icon: brand-github
 
         - identifier: docker
           name: Docker
-          url: https://hub.docker.com/u/yanbo92/
+          url: https://hub.docker.com/u/mkymkymky/
           params:
-              # icon: brand-docker
+              icon: brand-docker
 
-        - identifier: pypi
-          name: Pypi
-          url: https://pypi.org/user/yanbo92/
-          params:
+        # - identifier: pypi
+          # name: Pypi
+          # url: https://pypi.org/user/yanbo92/
+          # params:
               # icon: brand-python
 
         - identifier: mail
           name: Mail
-          url: mailto:yanbo92@139.com
+          url: mailto:evelyn.mok@gmail.com
           params:
-              # icon: brand-mail
+              icon: brand-mail
 
-        - identifier: reddit
-          name: Reddit
-          url: https://www.reddit.com/user/yanbo92/
-          params:
+        # - identifier: reddit
+          # name: Reddit
+          # url: https://www.reddit.com/user/yanbo92/
+          # params:
               # icon: brand-reddit
 
 
