@@ -2,17 +2,12 @@ baseURL: "https://mokevelyn.github.io/"
 languageCode: "zh-en"
 title: "卷生卷死"
 theme: Hugo-theme-stack
-
-baseurl: https://yanbo92.site/
-languageCode: zh-cn
-theme: hugo-theme-stack
 paginate: 5
-title: yanbo92.site
 
 languages:
     zh-cn:
         languageName: 中文
-        title: yanbo92.site
+        title: "卷生卷死"
         weight: 1
 
 
@@ -40,7 +35,7 @@ params:
     favicon:
 
     footer:
-        since: 2020
+        since: 2022
         customText:
 
     dateFormat:
@@ -48,8 +43,8 @@ params:
         lastUpdated: 2006-01-02
 
     sidebar:
-        emoji: 🤓
-        subtitle: 这里住着一位测试开发工程师
+        emoji: 🐑
+        subtitle: 这里住着一位秃头小天使
         avatar:
             enabled: true
             local: true
